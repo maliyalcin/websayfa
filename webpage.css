@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 240, 213);
+  font-family: 'Farro', sans-serif;
+}
+
+#social {
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px;
+}
+
+font {
+    float: left;
+    letter-spacing: 1.5px;
+}
+
+span {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#social>i{
+    margin-right: 20px;
+}
+
+#social>i:hover{
+    opacity: 0.5;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 10px 30px 15px rgba(25, 20, 30, 10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 35px;
+    background-color: black;
+    margin-bottom: 80px;
+}
+
+#headerResim1 {
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.9;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+    margin-top: 15px;
+    overflow: auto;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #adadad;
+}
+
+i {
+    margin-right: 10px;
+}
+
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.icerik {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+    margin-bottom: 15px;
+}
+
+.rsm {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: opacity 0.7s;
+}
+
+.rsm:hover {
+    opacity: 0.6;
+}
+
+h5 {
+    margin: 12px;
+    color: dimgray;
+}
+
+.icerikText {
+    margin: 7px;
+    color: dimgray;
+}
+
+.btnDevam:link{
+    display: block;
+    width: 160px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: rgb(103, 103, 216);
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.btnDevam:hover {
+    opacity: 0.7;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+}
+
+#hakkimizdaRSM {
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+    transition: opacity 0.7s;
+}
+
+#hakkimizdaRSM:hover {
+    opacity: 0.6;
+}
+
+.hakYazi {
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 40px;
+    color: #494949;
+}
+
+.referans {
+    width: 31%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+}
+
+.refResim {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 0;
+    opacity: 0.6;
+    transition: opacity 0.8s;
+}
+
+.refResim:hover {
+    opacity: 1;
+}
+
+.refBaslik {
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f6f6f6;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.refDetay {
+    text-align: center;
+}
+
+.galResim {
+    width: 22%;
+    height: 200px;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+    margin: 10px;
+    transition: all 0.3s;
+    object-fit: cover;
+}
+
+.galResim:hover {
+    opacity: 1;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+iframe {
+    width: 98%;
+    height: 350px;
+    border-radius: 25px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .10);
+    margin-left: 15px;
+}
+
+.section1 {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.form {
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+
+.col25 {
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col75 {
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+
+Label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: solid #ccc;
+    border-radius: 4px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input[type=submit] {
+    background-color: #9b96e4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+}
+
+.adres {
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.span1 {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 20px;
+
+}
